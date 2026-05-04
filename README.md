@@ -1,43 +1,43 @@
 # 🚗 InDrive Profit Calculator
 
-> **Pakistani InDrive drivers ke liye ek free tool** — har trip se pehle fuel cost aur net profit janein.
+> **A free tool for Pakistani InDrive drivers** — calculate your fuel cost and net profit before accepting any trip.
 
 ---
 
-## 📱 App Kya Hai?
+## 📱 What Is This App?
 
-Ye ek web app hai jo InDrive drivers ko help karta hai ke kisi bhi trip se pehle:
+This is a web app that helps InDrive drivers instantly know:
 
-- **Fuel cost calculate karein** — distance aur gaadi ki average ke hisaab se
-- **Net profit janein** — customer ka fare minus fuel cost
-- **Apni gaadi save karein** — ek baar average daalo, baar baar kaam aaye
+- **Fuel cost** — based on trip distance and your car's fuel average
+- **Net profit** — customer fare minus fuel cost
+- **Saved cars** — enter your car's average once, use it every time
 
 ---
 
 ## ✨ Features
 
-- 📍 Distance aur fare enter karo — profit/loss turant dikhe
-- ⛽ Aaj ka petrol rate khud set karo
-- 🚗 Multiple gaadiyan add karo (Alto, Civic, Corolla, ya koi bhi)
-- ✏️ Gaadi ki average kabhi bhi edit ya delete karo
-- 📱 Mobile friendly — bilkul app jaisa lagta hai
-- 💾 Data save rehta hai (browser storage)
+- 📍 Enter distance and fare — see profit or loss instantly
+- ⛽ Set today's petrol price yourself
+- 🚗 Add multiple cars (Alto, Civic, Corolla, or any car)
+- ✏️ Edit or delete any car anytime
+- 📱 Mobile friendly — feels just like a native app
+- 💾 Data is saved locally in your browser
 
 ---
 
 ## 🚀 Live Demo
 
 > 🔗 **[indrive-calculator.vercel.app](https://indrive-calculator.vercel.app)**  
-> *(Deploy karne ke baad link yahan update karein)*
+> *(Update this link after deploying)*
 
 ---
 
-## 📲 Phone Mein App Jaisa Use Karein
+## 📲 Use It Like an App on Your Phone
 
-1. Chrome mein link kholo
-2. Upar 3 dots (menu) pe click karo
-3. **"Add to Home Screen"** select karo
-4. Ab ye phone ki home screen pe app ki tarah dikhega ✅
+1. Open the link in Chrome
+2. Tap the 3-dot menu (top right)
+3. Select **"Add to Home Screen"**
+4. It will appear on your home screen just like an app ✅
 
 ---
 
@@ -45,36 +45,36 @@ Ye ek web app hai jo InDrive drivers ko help karta hai ke kisi bhi trip se pehle
 
 - **React** (JSX)
 - **CSS-in-JS** (inline styles)
-- **localStorage** — data browser mein save hota hai
+- **localStorage** — data is saved in the browser
 - **Vercel** — free hosting
 
 ---
 
-## 💻 Khud Run Karein (Developers)
+## 💻 Run Locally (For Developers)
 
 ```bash
-# 1. Repository clone karein
-git clone https://github.com/aapka-username/indrive-calculator.git
+# 1. Clone the repository
+git clone https://github.com/your-username/indrive-calculator.git
 cd indrive-calculator
 
-# 2. Dependencies install karein
+# 2. Install dependencies
 npm install
 
-# 3. Local server start karein
+# 3. Start the development server
 npm start
 ```
 
 ---
 
-## 📦 Deploy Karein (Vercel)
+## 📦 Deploy on Vercel
 
-1. [vercel.com](https://vercel.com) pe account banayein
-2. GitHub repo connect karein
-3. **Deploy** click karein — bas!
+1. Create an account at [vercel.com](https://vercel.com)
+2. Connect your GitHub repository
+3. Click **Deploy** — done!
 
 ---
 
-## 🧮 Formula Kya Hai?
+## 🧮 How Is It Calculated?
 
 ```
 Fuel Used  = Distance ÷ Car Average (litres)
@@ -90,23 +90,23 @@ Net Profit = Customer Fare − Fuel Cost
 
 ---
 
-## 🤝 Contribute Karein
+## 🤝 Contributing
 
-Koi bug mila? Koi naya feature chahiye? **Issue kholo ya Pull Request bhejo!**
+Found a bug? Want a new feature? **Open an issue or submit a pull request!**
 
-Ideas:
-- [ ] Return trip ka option
-- [ ] InDrive commission deduct karna
-- [ ] Trip history save karna
+Planned features:
+- [ ] Return trip option
+- [ ] InDrive commission deduction
+- [ ] Trip history log
 - [ ] Urdu language support
 
 ---
 
 ## 📄 License
 
-MIT License — Free hai, use karo, share karo. ❤️
+MIT License — Free to use and share. ❤️
 
 ---
 
-> **Banaya by:** Aapka Naam  
-> **Pakistani drivers ke liye, Pakistani drivers ne**
+> **Built by:** Hassan Bukhari 
+> **For Pakistani drivers, by a Pakistani driver**
